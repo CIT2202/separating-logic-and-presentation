@@ -1,5 +1,5 @@
 ## Separating logic and presentation
-Previously we looked at creating a core database driven web functionality using a films database (a browseable list, inserting a new film etc.).
+Previously we looked at creating fundamental database driven web functionality using a films database (a browseable list, inserting a new film etc.).
 
 This repository contains the same 'browseable list' PHP page, however, it has been re-written to separate the application logic (working with the database) from the presentation (HTML, echo statements etc.). Have a good look at this example.
 
