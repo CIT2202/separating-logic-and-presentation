@@ -7,7 +7,7 @@ Previously we looked at creating database driven web functionality using a films
 * Make sure this works before doing the next steps.
 
 ## Removing duplicate code
-* Can you re-write the PHP code in this films to use includes to remove duplicate code.
+* Can you re-write the PHP code in this films example to use ```include``` to remove duplicate code.
   * To start with, focus on the *browseable-list.php* page. You can use the example in this repository to guide you.
 * Then try and do something similar for the *details.php* page, and for *create* and *save*.
 
