@@ -4,7 +4,7 @@ This practical considers how we can use ```include``` to remove duplicate code f
 ## Setting up
 Previously we looked at creating database driven web functionality using a films database (a browseable list, inserting a new film etc.).
 * Make sure you have a working copy of this practical work from Week 4: PartB. If you didn't finish this practical work you can find a working version at https://github.com/CIT2202/films-single-table-crud/tree/solutions (you will need to change the database settings so this works with your database). 
-* Make sure this fully works before doing the next steps.
+* Make sure this works before doing the next steps.
 
 ## Removing duplicate code
 * Can you re-write the PHP code in this films to use includes to remove duplicate code.
