@@ -1,5 +1,5 @@
 # Separating logic and presentation
-This practical considers how we can use *includes* to remove duplicate code from a database driven PHP web application.
+This practical considers how we can use **includes** to remove duplicate code from a database driven PHP web application.
 
 ## Setting up
 Previously we looked at creating database driven web functionality using a films database (a browseable list, inserting a new film etc.).
