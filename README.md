@@ -1,10 +1,16 @@
-## Separating logic and presentation
+# Separating logic and presentation
+This practical considers how we can use *includes* to remove duplicate code from a database driven PHP web application.
+
+## Setting up
 Previously we looked at creating database driven web functionality using a films database (a browseable list, inserting a new film etc.).
+* Make sure you have a working copy of this practical work from Week 4: PartB. If you didn't finish this practical work you can find a working version at https://github.com/CIT2202/films-single-table-crud/tree/solutions (you will need to change the database settings so this works with your database). 
+* Make sure this fully works before doing the next steps.
 
-This repository contains the same 'browseable list' PHP page, however, it has been re-written to separate the application logic (working with the database) from the presentation (HTML, echo statements etc.). Have a good look at this example.
-
-* Using your previous PHP practical work (from Week 4: Part B). Can you re-write your PHP code to do something similar i.e. use includes to remove duplicate code.
-
-* To start with, focus on the *browseable-list.php* page. You can use the example in this repository to guide you.
-
+## Removing duplicate code
+* Can you re-write the PHP code in this films to use includes to remove duplicate code.
+  * To start with, focus on the *browseable-list.php* page. You can use the example in this repository to guide you.
 * Then try and do something similar for the *details.php* page, and for *create* and *save*.
+
+
+
+
