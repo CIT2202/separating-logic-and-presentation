@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "List the films";
 include "header.php";
 ?>
 
