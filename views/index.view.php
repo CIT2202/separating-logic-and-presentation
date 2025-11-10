@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "List the films";
-include "header.php";
+require "header.php";
 ?>
 
 <h1>A Browseable List</h1>
@@ -10,11 +10,11 @@ include "header.php";
 //loop over the array of films and display their titles
 foreach ($films as $film) {
     echo "<p>";
-    echo "<a href='details-new.php?id={$film["id"]}'>";
+    echo "<a href='show.php?id={$film["id"]}'>";
     echo $film['title'];
     echo "</a>";
     echo "</p>";
 }
 
-include "footer.php";
+require "footer.php";
 ?>

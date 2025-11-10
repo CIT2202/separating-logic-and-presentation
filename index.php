@@ -5,6 +5,5 @@ include "connect.php";
 $query = "SELECT * FROM films";
 $resultset = $conn->query($query);
 $films = $resultset->fetchAll();
-$conn=NULL;
-include "views/browseable-list-view.php";
-?>
+$conn = NULL;
+include "views/index.view.php";
