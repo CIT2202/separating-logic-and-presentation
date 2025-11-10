@@ -11,7 +11,7 @@ git clone https://github.com/CIT2202/separating-logic-and-presentation
 
 This will copy the contents of this repository into your codespace.
 
-- From the open _connect.php_. Change the connection settings to match your database and environment. This is the line you need to change
+- Open _connect.php_. Change the connection settings to match your database and environment. This is the line you need to change
 
 ```
     $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
@@ -25,7 +25,7 @@ You will need to change it to:
 
 - Start Apache (`apache2ctl start`)
 - Browse to the _separating-logic-and-presentation_ folder. You should see the _index.php_ page displayed. It should be showing the list of films from the database.
-- Right click on the page and select 'view page source' so you can see the page that has been generated.
+- Right-click on the page and select 'view page source' so you can see the page that has been generated.
 - Now, have a good look at the code in _index.php_. Make sure you understand how this page is using `require` statements to construct the page.
 
 Now move onto [Completing the practical work](#practical)
