@@ -28,17 +28,6 @@ You will need to change it to:
 
 - If you click on one of the links in _index.php_, this takes you to _show.php_, and you'll get an error. Open up _show.php_ and edit the connection settings just like you did in _index.php_. The _show.php_ page should then work.
 - Continue by changing the connection settings in the other files to get the whole application to work. Make sure you look carefully through the code so you understand how the application has been built.
-- Open _connect.php_. Change the connection settings to match your database and environment. This is the line you need to change
-
-```
-    $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
-```
-
-You will need to change it to:
-
-```
-    $conn = new PDO('mysql:host=db;dbname=webdev', 'student', 'secret');
-```
 
 ## Using `require` to load the connection code
 
