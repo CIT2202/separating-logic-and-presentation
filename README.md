@@ -21,7 +21,7 @@ You will need to change it to:
     $conn = new PDO('mysql:host=db;dbname=webdev', 'student', 'secret');
 ```
 
-- Browse to the _basic-CRUD-in-PHP_ folder. You should see the _index.php_ page displayed. It should be showing the list of films from the database.
+- In a browser navigate to the _basic-CRUD-in-PHP_ folder. You should see the _index.php_ page displayed. It should be showing the list of films from the database.
 - Have a good look through the code in _index.php_. Make sure you understand what each line of code is doing.
 
 ## Getting the other operations to work
