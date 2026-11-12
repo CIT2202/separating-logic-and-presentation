@@ -9,7 +9,7 @@ git clone https://github.com/CIT2202/basic-CRUD-in-PHP/
 
 This will copy the contents of the **Basic CRUD in PHP** repository into your codespace.
 
-- From the _basic-CRUD-in-PHP_ folder, open _index.php_. Change the connection settings to match your database and enviornment. This is the line you need to change
+- From the _basic-CRUD-in-PHP_ folder, open _index.php_. Change the connection settings to match your database and enviornment. This is the line you need to change:
 
 ```
     $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
