@@ -61,7 +61,9 @@ $resultset = $conn->query($query);
 //The rest of you code follows below...
 ```
 
-## Separating Logic from Presentation
+Test the page in a browser to make sure it still works. 
+
+## Separating logic from presentation
 
 In the _basic-CRUD-in-PHP_ folder create a new folder, name it _views_. Inside this folder create a file, name it _index.view.php_.
 
@@ -99,7 +101,9 @@ Copy the following code into _index.view.php_.
 </body>
 </html>
 ```
-In _index.php_ delete all the the HTML code and replace it with a `require` statement that will load _index.view.php_. _index.php_ will then look like:
+In _index.php_ delete all the the HTML code and replace it with a `require` statement that will load _index.view.php_. 
+
+_index.php_ will then look like:
 
 ```php
 <?php
@@ -123,7 +127,7 @@ $conn = NULL;
 require "views/index.view.php";
 ```
 
-Test this works
+- Again, in a browser, test this works.
 
 ## Re-writing the other pages
 - Go through each of the other pages in the site and re-write them to use _connect.php_, and use a separate 'view' file. 
