@@ -128,6 +128,7 @@ require "views/index.view.php";
 ```
 
 - Again, in a browser, test this works.
+- At this point we have reduced duplicate code and successfully separated presentation from content.
 
 ## Re-writing the other pages
 - Go through each of the other pages in the site and re-write them to use _connect.php_, and use a separate 'view' file. 
